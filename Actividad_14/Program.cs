@@ -13,8 +13,8 @@ namespace Actividad_14
         {
             string Frase_1;
             string Frase_2;
-            string NuevaFrase1;
-            string NuevaFrase2;
+            string Frase_V1;
+            string Frase_V2;
 
             Console.Write("Por favor, ingrese la primera frase: ");
             Frase_1 = Console.ReadLine();
@@ -22,10 +22,10 @@ namespace Actividad_14
             Frase_2 = Console.ReadLine();
             Console.WriteLine("\r");
 
-            NuevaFrase1 = Frase_1.ToUpper();
-            NuevaFrase2 = Frase_2.ToUpper();
+            Frase_V1 = Frase_1.ToUpper();
+            Frase_V2 = Frase_2.ToUpper();
 
-            if (NuevaFrase1 == NuevaFrase2)
+            if (Frase_V1 == Frase_V2)
             {
                 Console.WriteLine("Las frases ingresadas son iguales, sin diferenciar mayúsculas de minúsculas.");
             }
